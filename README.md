@@ -1,5 +1,7 @@
 # IS4320 I2C Modbus RTU Master example on STM32 (ISXMPL4320ex6)
 
+Coding with STM32 for the IS4320 is very simple. It does not require any INACKS-specific library—just the standard HAL I2C functions: '''HAL_I2C_Mem_Read()''' and '''HAL_I2C_Mem_Write()'''.
+
 This STM32 CubeIDE project is based on the **Nucleo-C071** evaluation board from ST, which features an STM32C071RBT microcontroller, and the **Kappa4320Ard Evaluation Board**, which features the IS4320 I2C Modbus RTU Master chip. The Kappa4320Ard has an Arduino form factor and directly fits into the Nucleo-C071 board, so no additional connections between the microcontroller and the IS4320 are required, making it very easy to test the example.
  
 The project demonstrates how to use the STM32 microcontroller to communicate with the IS4320 over I2C. In this example, the microcontroller instructs the IS4320 to read Holding Register 0 using the Function Code 3 from a Modbus Slave, and prints the result via the STLink Virtual COM Port. You can view the output using any serial terminal software, such as CoolTerm.
