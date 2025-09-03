@@ -16,6 +16,8 @@ To test the example, you will need a Modbus Slave. You can use the **pyModSlave*
 
 For more information, visit [www.inacks.com](https://www.inacks.com/is4320)
 
+For clarity purposes, the code below excludes all extra HAL code and only shows the parts relevant to the IS4320. You can download the full STM32 project example as a .rar file from this repo.
+
 ```c
 #include <stdio.h>
 
