@@ -6,7 +6,7 @@ This STM32 CubeIDE project is based on the **Nucleo-C071** evaluation board from
  
 The project demonstrates how to use the STM32 microcontroller to communicate with the IS4320 over I2C. In this example, the microcontroller instructs the IS4320 to read Holding Register 0 using the Function Code 3 from a Modbus Slave, and prints the result via the STLink Virtual COM Port. You can view the output using any serial terminal software, such as CoolTerm.
 
-To test the example, you will need a Modbus Slave. You can use the **pyModSlave** software, which is a Modbus TCP/RTU Slave simulator.  Condigure the Slave with this values: Slave Address 1, 19200 baud, Even parity, and 1 Stop bit.
+To test the example, you will need a Modbus Slave. You can use the **pyModSlave** software, which is a Modbus TCP/RTU Slave simulator.  Configure the Slave with this values: Slave Address 1, 19200 baud, Even parity, and 1 Stop bit.
 
 - **Kappa4320Ard Evaluation Board:** [www.inacks.com/kappa4320ard](https://www.inacks.com/kappa4320ard)  
 - **IS4320 Datasheet:** [www.inacks.com/is4320](https://www.inacks.com/is4320)
